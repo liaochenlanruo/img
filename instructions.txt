@@ -1,0 +1,6 @@
+新照片放在img目录下，运行：
+perl get_time.pl
+
+
+在img目录下运行
+python tool.py
