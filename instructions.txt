@@ -1,8 +1,9 @@
-����Ƭ����imgĿ¼�£����У�
+从头配置需参考：https://cungudafa.blog.csdn.net/article/details/104378416
+
+新照片放在img目录下，运行：
 perl get_time.pl
 
-
-����Ƭ�ƶ���photos���棬��imgĿ¼������
+将照片移动到photos里面，在img目录下运行
 python tools.py
 
-����������Ŀ¼�µ�source/photos/�������µ�data.json�ļ�������hexoһ����վ���ɡ�
+将会在主题目录下的source/photos/中生成新的data.json文件，重新hexo一遍网站即可。
