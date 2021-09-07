@@ -4,7 +4,7 @@ use warnings;
 use File::stat;
 use Time::localtime;
 
-open OUT, ">test.txt" || die;
+#open OUT, ">test.txt" || die;
 my @amr = glob("*.jpg");
 foreach  (@amr) {
 	my $name;
@@ -19,11 +19,11 @@ foreach  (@amr) {
 	$time[2] = day($time[2]);
 	$time[3] =~ s/\:/./g;
 	my $new_name = $time[4] . "-" . $time[1] . "-" . $time[2] . "_" . $name . ".jpg";
-	print OUT $_ . "\t" . $new_name . "\n";
+#	print OUT $_ . "\t" . $new_name . "\n";
 	system ("mv $_ $new_name");
 	#print OUT $_ . "\t" . $time[4] . $time[1] . $time[2] . "_" . $time[3] . "_" . $time[0] . "\n";
 }
-close OUT;
+#close OUT;
 #Wed Aug 26 05:40:31 2020
 
 sub month {
