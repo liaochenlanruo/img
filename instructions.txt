@@ -5,3 +5,4 @@ perl get_time.pl
 将照片移动到photos里面，在img目录下运行
 python tools.py
 
+将会在主题目录下的source/photos/中生成新的data.json文件，重新hexo一遍网站即可。
