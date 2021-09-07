@@ -2,5 +2,6 @@
 perl get_time.pl
 
 
-在img目录下运行
-python tool.py
+将照片移动到photos里面，在img目录下运行
+python tools.py
+
